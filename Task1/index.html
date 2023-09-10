@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Brand</title>
+    <link rel="stylesheet" href="/Task1/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home" style=" 
+                text-decoration: none;
+                color: #fff;">
+                    <h1>Fashion</h1>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Fashion Clothing</h1>
+        <p>Discover the Latest Fashion Trends</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <section id="products" class="product-listings">
+        <div class="product">
+            <img src="https://cdn.pixabay.com/photo/2016/08/15/19/57/red-devils-1596355_640.jpg" alt="Stylish T-Shirt">
+            <h2>Stylish T-Shirt</h2>
+            <p class="price">$20</p>
+            <button class="btn add-to-cart" data-name="Stylish T-Shirt" data-price="20">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://cdn.pixabay.com/photo/2019/09/17/12/38/fashion-4483383_1280.jpg" alt="Denim Jeans">
+            <h2>Denim Jeans</h2>
+            <p class="price">$45</p>
+            <button class="btn add-to-cart" data-name="Denim Jeans" data-price="45">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://cdn.pixabay.com/photo/2020/05/18/10/24/pants-5185569_640.jpg" alt="Elegant Dress">
+            <h2>Elegant Dress</h2>
+            <p class="price">$60</p>
+            <button class="btn add-to-cart" data-name="Elegant Dress" data-price="60">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://cdn.pixabay.com/photo/2019/09/17/12/39/fashion-4483390_640.jpg" alt="Elegant Dress">
+            <h2>Trousers</h2>
+            <p class="price">$60</p>
+            <button class="btn add-to-cart" data-name="Elegant Dress" data-price="60">Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Fashion Clothing</h2>
+        <p>We are passionate about fashion and quality.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <p>&copy; 2023 Fashion Clothing</p>
+    </footer>
+</body>
+
+</html>
